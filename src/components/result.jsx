@@ -7,7 +7,7 @@ const Result = () => {
     return (
         <div className='content'>
             <h3 className='result-tit'>당신이 원하는 인재상은</h3>
-            <img src="./images/profile.jpg" alt="profile img" />
+            <img src="./images/profile.jpg" alt="profile img" className='profile-img' />
             <strong className='myname'>김현진</strong>
             <a className='btn-down' href="https://hjtime.github.io/2022portfolio/file/kimhyeonjin.pdf">이력서 보기</a>
             
