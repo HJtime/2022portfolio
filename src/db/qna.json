@@ -1,0 +1,26 @@
+{
+    "question":[
+        {"id": 1, "page": 1, "question":"이런 걸 할 줄 아는 사람이 좋다"},
+        {"id": 2, "page": 2, "question":"이런 자격증을 가진 사람을 원한다"},
+        {"id": 3, "page": 3, "question":"우리 회사와 잘 맞는 성격 유형은?"},
+        {"id": 4, "page": 4, "question":"이 정도의 경력을 가진 사람이 좋다"}
+    ],
+    "answer":[
+        {"id": 1, "page": 1, "num": 1, "answer":"HTML, CSS"},
+        {"id": 2, "page": 1, "num": 2, "answer":"JAVASCRIPT"},
+        {"id": 3, "page": 1, "num": 3, "answer":"REACT"},
+
+        {"id": 4, "page": 2, "num": 1, "answer":"정보처리기사"},
+        {"id": 5, "page": 2, "num": 2, "answer":"웹디자인기능사"},
+        {"id": 6, "page": 2, "num": 3, "answer":"컴퓨터활용능력"},
+        {"id": 7, "page": 2, "num": 4, "answer":"GTQ 포토샵"},
+
+        {"id": 8, "page": 3, "num": 1, "answer":"책임감이 강한 성격"},
+        {"id": 9, "page": 3, "num": 2, "answer":"원리원칙주의자"},
+        {"id": 10, "page": 3, "num": 3, "answer":"완벽주의자"},
+
+        {"id": 11, "page": 4, "num": 1, "answer":"퍼블리셔 경력 1년"},
+        {"id": 12, "page": 4, "num": 2, "answer":"프론트엔드 준비기간 1년"},
+        {"id": 13, "page": 4, "num": 3, "answer":"코딩을 시작한 지 10년"}
+    ]
+}

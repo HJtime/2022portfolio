@@ -1,0 +1,276 @@
+@import url('reset.css');
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-content,
+.content{
+    width: 40.3rem;
+    padding: 0 2.6rem;
+}
+
+.main-content *{
+    font-family: 'GmarketSans';
+}
+
+.main-sub-ttl{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #010101;
+}
+
+.main-ttl{
+    margin-top: 1rem;
+    font-size: 3.2rem;
+    color: #000;
+}
+
+.main-content img{
+    width: 26rem;
+    height: auto;
+    margin-top: 4.5rem;
+}
+
+.btn-start{
+    width: 30rem;
+    height: 7rem;
+    margin-top: 6rem;
+    border: 5px solid #9cf0e7;
+    border-radius: 80px;
+    line-height: 7rem;
+    color: #9cf0e7;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-start:hover{
+    color: #fff;
+    background: #9cf0e7;
+}
+
+/* qna */
+.content{
+    padding: 6rem 2.6rem;
+}
+
+.progressbar{
+    width: 100%;
+    height: 1.6rem;
+    border: 3px solid #9cf0e7;
+    border-radius: 25px;
+}
+
+.progressbar .bar{
+    width: 10%;
+    height: 100%;
+    background: #9cf0e7;
+}
+
+.question{
+    display: inline-block;
+    margin-top: 7.3rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #010101;
+}
+
+.qna-list{
+    margin-top: 4.3rem;
+}
+
+.qna-list li{
+    margin-top: 1.3rem;
+    border-radius: 80px;
+    border: 3px solid #9cf0e7;
+    height: 5.8rem;
+    line-height: 5.8rem;
+    font-size: 2rem;
+    color: #77cac1;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.qna-list li:hover{
+    color: #fff;
+    background: #9cf0e7;
+}
+
+.qna-list li:first-child{
+    margin-top: 0;
+}
+
+/* result */
+.project-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.project{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 65%;
+    height: 30rem;
+    margin: 0.6rem;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    overflow: hidden;
+}
+
+.project-text{
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    width: 100%;
+}
+
+.project-text h3{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.project-text h3::after{
+    content: '';
+    display: block;
+    position: relative;
+    transform: translateY(10px);
+    width: 100%;
+    height: 1px;
+    background-color: #77cac1;
+}
+
+.project-text span{
+    padding: 0.6rem 0;
+    margin-top: 0.6rem;
+}
+
+.project-skill{
+    color: #77cac1;
+}
+
+.project-description{
+    position: relative;
+    width: 100%;
+    height: 16.6rem;
+    overflow: hidden;
+}
+
+.project-description img{
+    width: 100%;
+}
+
+.project-button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(119,202,193,0.5);
+    transform: translateY(10px);
+    transition: all 200ms ease-in;
+}
+
+.project:hover .project-button{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.project-button a{
+    width: 3.3rem;
+    height: 3.3rem;
+    background-color: #77cac1;
+    margin: 0.2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 200ms ease-in-out;
+}
+
+.project-button a:hover{
+    background-color: #fff;
+    color: #77cac1;
+}
+
+.result-tit{
+    margin-bottom: 4rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #77cac1;
+}
+
+.myname{
+    display: block;
+    margin: 2rem 0 2.3rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #010101;
+}
+
+.btn-down{
+    display: inline-block;
+    width: 20rem;
+    height: 4.5rem;
+    border: 3px solid #9cf0e7;
+    border-radius: 80px;
+    line-height: 4.5rem;
+    color: #9cf0e7;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'GmarketSans';
+    transition: all 200ms ease-in-out;
+}
+
+.btn-down:hover{
+    color: #fff;
+    background: #9cf0e7;
+}
+
+.pro-tit{
+    display: block;
+    margin-top: 6.5rem;
+    color: #77cac1;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 48rem){
+    html{
+        font-size: 13px;
+    }
+
+    .main-content,
+    .content{
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .project{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 25rem){
+    html{
+        font-size: 12px;
+    }
+}
