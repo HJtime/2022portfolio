@@ -97,6 +97,7 @@ body{
     line-height: 5.8rem;
     font-size: 2rem;
     color: #77cac1;
+    word-break: keep-all;
     cursor: pointer;
     transition: all 200ms ease-in-out;
 }
@@ -248,7 +249,7 @@ body{
 
 .pro-tit{
     display: block;
-    margin-top: 6.5rem;
+    margin-top: 5rem;
     color: #77cac1;
     font-size: 2rem;
     font-weight: 800;
