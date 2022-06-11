@@ -26,6 +26,7 @@ body{
     font-size: 2rem;
     font-weight: 600;
     color: #010101;
+    word-break: keep-all;
 }
 
 .main-ttl{
@@ -260,11 +261,16 @@ body{
 
     .main-content,
     .content{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         padding: 1.5rem;
     }
 
     .project{
+        width: 100%;
+    }
+
+    .btn-start{
         width: 100%;
     }
 }
