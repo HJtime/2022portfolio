@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2022portfolio/static/css/main.bdbc26a0.css",
-    "main.js": "/2022portfolio/static/js/main.5a25cfb3.js",
+    "main.css": "/2022portfolio/static/css/main.0a550e56.css",
+    "main.js": "/2022portfolio/static/js/main.e0b1459b.js",
     "static/media/Pretendard-Medium.otf": "/2022portfolio/static/media/Pretendard-Medium.bcebdfe0d3918708aa5d.otf",
     "static/media/Pretendard-SemiBold.otf": "/2022portfolio/static/media/Pretendard-SemiBold.9009f5d2e39a2d3bdaf6.otf",
     "static/media/Pretendard-Bold.otf": "/2022portfolio/static/media/Pretendard-Bold.e75150e686324d4f5c03.otf",
@@ -32,11 +32,11 @@
     "static/media/GmarketSansMedium.woff": "/2022portfolio/static/media/GmarketSansMedium.e8fdaca6e7179311bb93.woff",
     "static/media/GmarketSansLight.woff": "/2022portfolio/static/media/GmarketSansLight.e2c3b93bd02a05f8eb08.woff",
     "index.html": "/2022portfolio/index.html",
-    "main.bdbc26a0.css.map": "/2022portfolio/static/css/main.bdbc26a0.css.map",
-    "main.5a25cfb3.js.map": "/2022portfolio/static/js/main.5a25cfb3.js.map"
+    "main.0a550e56.css.map": "/2022portfolio/static/css/main.0a550e56.css.map",
+    "main.e0b1459b.js.map": "/2022portfolio/static/js/main.e0b1459b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdbc26a0.css",
-    "static/js/main.5a25cfb3.js"
+    "static/css/main.0a550e56.css",
+    "static/js/main.e0b1459b.js"
   ]
 }
