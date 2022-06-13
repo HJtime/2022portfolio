@@ -10,6 +10,26 @@ const Result = () => {
             <img src="./images/profile.jpg" alt="profile img" className='profile-img' />
             <strong className='myname'>김현진</strong>
             <a className='btn-down' href="https://hjtime.github.io/2022portfolio/file/kimhyeonjin.pdf">이력서 보기</a>
+
+            <span className='pro-tit'>Education</span>
+            
+            <ul className='project-list'>
+                <li className="project">
+                    <div className="project-description">
+                        <img src="./images/edu-cover.png" alt="project image" className="project-img"/>
+                        <div className="project-button">
+                            <a href="https://inf.run/aKT3" target="blank">
+                                <i className="fa-solid fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="project-text">
+                        <h3>빠르게 훑는 HTML + CSS 기초</h3>
+                        <span>인프런 웹퍼블리싱 강의 진행</span>
+                        <span className="project-skill">HTML, CSS</span>
+                    </div>
+                </li>
+            </ul>
             
             <span className='pro-tit'>Project</span>
             
