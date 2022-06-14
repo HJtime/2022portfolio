@@ -10,6 +10,7 @@ const Result = () => {
             <img src="./images/profile.jpg" alt="profile img" className='profile-img' />
             <strong className='myname'>김현진</strong>
             <a className='btn-down' href="https://hjtime.github.io/2022portfolio/file/kimhyeonjin.pdf">이력서 보기</a>
+            <a className='btn-down down2' href="https://hjtime.github.io/2022portfolio/file/portfolio.pdf">포트폴리오 PDF</a>
 
             <span className='pro-tit'>Education</span>
             
